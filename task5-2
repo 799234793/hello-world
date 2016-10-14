@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<style>
+		*{margin: 0;padding:0;}
+		.header{width: 100%;min-width: 320px;height: 88px;background: #5FBFCD;overflow: hidden;background:#5FBFCD url(picture/it05.jpg) 95% center no-repeat;}
+		.header_list{margin:9px auto;border-radius: 10px;background: #54A7B2;width: 285px;height: 70px;}
+		.header_list span{width: 138px;display: inline-block;text-align: center;line-height: 70px;font-size: 28px; color: #fff;}
+		.header_list .active{border-radius: 10px;background: #fff;color:  #5FBFCD}
+
+		.main_nav{height: 80px;width: 100%;border-bottom: 1px solid #ccc;}
+		.main_nav div{width: 33%;float: left;text-align: center;line-height: 80px;font-size:2em; color: #ccc;background: url(picture/it07.gif) 90% center no-repeat;}
+		.main_nav div img{float: right;}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="header_list">
+			<span class="header_list_left">找雇主</span>
+			<span class="header_list_right active">找护工</span>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main_nav">
+			<div class="main_nav_l">所在地<img src="picture/it06.jpg" alt="aa"></div>
+
+			<div class="main_nav_m">食宿<img src="picture/it06.jpg" alt="aa"></div>
+			<div class="main_nav_r">病人情况</div>
+		</div>
+		<div class="main_content"></div>
+	</div>
+	<div class="footer">
+		
+	</div>
+</body>
+</html>
