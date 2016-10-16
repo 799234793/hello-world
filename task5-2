@@ -14,6 +14,29 @@
 		.main_nav{height: 80px;width: 100%;border-bottom: 1px solid #ccc;}
 		.main_nav div{width: 33%;float: left;text-align: center;line-height: 80px;font-size:2em; color: #ccc;background: url(picture/it07.gif) 90% center no-repeat;}
 		.main_nav div img{float: right;}
+		.main_contents{width: 100%;height: 180px;border-bottom: 1px solid #ccc;font-size: 28px;padding:28px 30px;box-sizing: border-box;}
+		.content_top{background: url(picture/it08.jpg) left center no-repeat;color:#555;text-indent: 35px;color: #999}
+		.content_mid{margin: 15px 0;background: url(picture/it10.jpg) right center no-repeat;}
+		.mid_l{float: left;}
+		.mid_r{float: right;padding-right: 35px;color: #E93A00;}
+		.content_bot{background: url(picture/it09.jpg) left center no-repeat;text-indent: 35px;color: #999;}
+		.clearfix:after{
+            content: "";
+            width: 0;
+            height: 0;
+            clear: both;
+            display: block;
+            visibility: hidden;/*将元素隐藏起来*/
+        }
+        .clearfix{
+            zoom:1;/*兼容ie6*/
+        }
+		
+		.footer{width: 100%;height: 100px; color: #999;background-color: #F7F9FB;position: fixed;bottom: 0;}
+		.active{color: #5FBFCD;}
+        .footer_l{width: 30%;float: left;text-align: right;margin-top:20px;}
+        .footer_m{width: 40%;float: left;text-align: center;}
+        .footer_r{width: 30%;float: left;margin-top:20px;}
 	</style>
 </head>
 <body>
@@ -30,10 +53,82 @@
 			<div class="main_nav_m">食宿<img src="picture/it06.jpg" alt="aa"></div>
 			<div class="main_nav_r">病人情况</div>
 		</div>
-		<div class="main_content"></div>
+		<div class="main_content">
+			<div class="main_contents">
+				<div class="content_top">
+					服务日期
+				</div>
+				<div class="content_mid clearfix">
+					<div class="mid_l">2015-7-5至2015-7-10</div>
+					<div class="mid_r">25元/小时</div>
+				</div>
+				<div class="content_bot">北京.通州.果园</div>
+			</div>
+			<div class="main_contents">
+				<div class="content_top">
+					服务日期
+				</div>
+				<div class="content_mid clearfix">
+					<div class="mid_l">2015-7-5至2015-7-10</div>
+					<div class="mid_r">25元/小时</div>
+				</div>
+				<div class="content_bot">北京.通州.果园</div>
+			</div>
+			<div class="main_contents">
+				<div class="content_top">
+					服务日期
+				</div>
+				<div class="content_mid clearfix">
+					<div class="mid_l">2015-7-5至2015-7-10</div>
+					<div class="mid_r">25元/小时</div>
+				</div>
+				<div class="content_bot">北京.通州.果园</div>
+			</div>
+			<div class="main_contents">
+				<div class="content_top">
+					服务日期
+				</div>
+				<div class="content_mid clearfix">
+					<div class="mid_l">2015-7-5至2015-7-10</div>
+					<div class="mid_r">25元/小时</div>
+				</div>
+				<div class="content_bot">北京.通州.果园</div>
+			</div>
+			<div class="main_contents">
+				<div class="content_top">
+					服务日期
+				</div>
+				<div class="content_mid clearfix">
+					<div class="mid_l">2015-7-5至2015-7-10</div>
+					<div class="mid_r">25元/小时</div>
+				</div>
+				<div class="content_bot">北京.通州.果园</div>
+			</div>
+			<div class="main_contents">
+				<div class="content_top">
+					服务日期
+				</div>
+				<div class="content_mid clearfix">
+					<div class="mid_l">2015-7-5至2015-7-10</div>
+					<div class="mid_r">25元/小时</div>
+				</div>
+				<div class="content_bot">北京.通州.果园</div>
+			</div>
+			
+		</div>
 	</div>
 	<div class="footer">
-		
+		<div class="footer_l active">
+				<img src="picture/it11.jpg" alt="shouye">
+				<p>首 页</p>
+			</div>
+			<div class="footer_m">
+				<img src="picture/it13.jpg" alt="write">
+			</div>
+			<div class="footer_r">
+				<img src="picture/it12.jpg" alt="fanhui">
+				<p>我 的</p>
+			</div>
 	</div>
 </body>
 </html>
