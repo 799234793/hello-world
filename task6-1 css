@@ -1,0 +1,36 @@
+.clearfix:after{
+            content: "";
+            width: 0;
+            height: 0;
+            clear: both;
+            display: block;
+            visibility: hidden;/*将元素隐藏起来*/
+        }
+        .clearfix{
+            zoom:1;/*兼容ie6*/
+        }
+*{margin:0;padding: 0;}
+body{background: #29BDDF;font-size: 62.5%;}
+.header{width: 100%;height: 80px;}
+.header_l{width: 30%;float: left;padding-left: 5%;box-sizing: border-box;}
+.header_m{width: 40%;float: left;text-align: center;font-size:2rem;line-height: 80px;color: #fff;}
+.header_r{width: 30%;float: left;padding-right: 5%;box-sizing: border-box;}
+.header_r img{float: right;margin-top: 20px;}
+.header_l img{margin-top: 20px;}
+
+.song{width: 100%;height: 82px;box-sizing: border-box;padding-left: 7%;font-size: 1.6rem;line-height: 82px;background: #B9E9F5;}
+.song_content{width: 80%;float: left;color: #F7B640;}
+.song_img{float: right;margin: 15px 20px 0 0;}
+.triangle{width:0;height: 0; border-width: 20px 10px;border-color: #B9E9F5 transparent transparent transparent;border-style: solid;margin-left: 10%;}
+.txt{padding-left: 10%;font-size: 1.4rem;color: #F7B640;}
+.main_content{width: 25%;box-sizing: border-box;margin: 0 4%;float: left;}
+.main_top{background: #fff;padding:1%;}
+.main_top .main_top_name{background: #FBB335;height: 98px;line-height: 98px;text-align: center;font-size: 2rem;}
+.main_top .main_top_num{background: #B9BB8B;height: 28px;line-height: 28px;text-align: center;font-size: 1.3rem;color: #fff;}
+.main_bot{margin:23px 0;}
+.main_bot a{width: 15%;float: left; margin: 0 5%;}
+
+.footer{background: #29BDE0;position: fixed;bottom: 0;height: 126px;width: 100%;}
+.footer_content{width: 80%;margin: 20px auto;background: #FBB335;height: 86px;border-radius: 5px;font-size: 2rem;color: #fff;text-align: center;line-height: 86px;}
+.none{width: 100%;height: 126px;}
+
