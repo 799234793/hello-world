@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>投票页</title>
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+	<div class="header">
+		<div class="header_l">
+			<img  src="image/it14.jpg" alt="mulu">
+		</div>
+		<p class="header_m">投票</p>
+		<div class="header_r">
+			<img  src="image/it15.jpg" alt="guanbi">
+		</div>
+	</div>
+	<div class="song">
+		<p class="song_content">发言讨论结束，请大家投票</p>
+		<div class="song_img"><img src="image/it16.jpg" alt=""></div>
+		<audio src="财富自由.mp3" autoplay="autoplay" loop="loop">
+			浏览器不支持
+		</audio>
+	</div>
+	<div class="triangle"></div>
+	<div class="txt">点击得票数最多的人的头像</div>
+	<div class="main clearfix">
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="main_content">
+			<div class="main_top">
+				<div class="main_top_name">水民</div>
+				<div class="main_top_num">1号</div>
+			</div>
+			<div class="main_bot clearfix">
+				<a href="#"><img src="image/it17.jpg" alt=""></a>
+				<a href="#"><img src="image/it18.jpg" alt=""></a>
+				<a href="#"><img src="image/it19.jpg" alt=""></a>
+				<a href="#"><img src="image/it20.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+	<div class="none"></div>
+	<div class="footer">
+		<div class="footer_content">投死</div>
+	</div>
+</body>
+</html>
